@@ -69,6 +69,6 @@ class GeoSearchMixin(object):
             'image_geo_data': image_geo,
             'root_data': root_kwargs,
         }
-        print(geo_data)
         return JsonResponse(geo_data)
 
+    
